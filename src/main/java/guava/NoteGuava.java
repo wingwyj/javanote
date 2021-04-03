@@ -79,7 +79,7 @@ public class NoteGuava {
     }
 
     /**
-     * Table 二位坐标的数据集合类
+     * Table 二维坐标的数据集合类
      */
     public static void TableTest() {
         Table<Integer, Integer, String> table = HashBasedTable.create();
