@@ -1,5 +1,7 @@
 package generic;
 
+import sun.security.action.PutAllAction;
+
 /**
  * @author wangyingjie
  * @version 1.0
@@ -7,7 +9,7 @@ package generic;
  *
  *  泛型类
  */
-public class Generic<T> {
+public class Generic<T extends Employee> {
 
     private T t;
 
@@ -17,5 +19,9 @@ public class Generic<T> {
 
     public T getValue() {
         return t;
+    }
+
+    public void work() {
+        t.work();
     }
 }

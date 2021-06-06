@@ -13,10 +13,11 @@ package generic;
  */
 public class GenericTest {
     public static void main(String[] args) {
-        Generic genericInt = new Generic<Integer>(888);
-        Generic genericStr = new Generic<String>("AAA");
-        System.out.println(genericInt.getClass());
-        System.out.println(genericStr.getClass());
-        System.out.println(genericInt.getClass() == genericStr.getClass());
+        Generic BB = new Generic<EmployBB>(new EmployBB());
+        Generic AA = new Generic<EmployeeAA>(new EmployeeAA());
+//        Generic AA = new Generic<EmployeeCC>(new EmployeeAA());
+        
+        AA.work();
+        BB.work();
     }
 }

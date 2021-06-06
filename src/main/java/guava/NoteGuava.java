@@ -38,7 +38,11 @@ public class NoteGuava {
 
         // 拆分成Map
         String mapStr = "aa:123;bb:234;cc:345";
-        Map<String, String> split = Splitter.on(";").withKeyValueSeparator(":").split(mapStr);
+        Map<String, String> split = Splitter.on(";")
+                .trimResults()
+                .omitEmptyStrings()
+                .withKeyValueSeparator(":")
+                .split(mapStr);
         System.out.println(split);
 
         // Joiner
