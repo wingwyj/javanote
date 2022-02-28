@@ -1,4 +1,4 @@
-package design_pattern.single;
+package pattern.single;
 
 /**
  * @author wangyingjie

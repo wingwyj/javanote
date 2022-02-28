@@ -1,4 +1,4 @@
-package design_pattern.single;
+package pattern.single;
 
 /**
  * 单例模式--枚举实现

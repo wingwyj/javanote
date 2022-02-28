@@ -1,4 +1,4 @@
-package design_pattern.proxy;
+package pattern.proxy;
 
 
 /**
