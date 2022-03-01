@@ -16,5 +16,27 @@
   * **git add** 是将文件(修改)添加到暂存区。  
   * **git commit** 是将暂存区的修改提交到master分支。
   * **git push** 是将本地master分支上的修改提交到远程分支。
-  * **修改管理** 文件的修改后没`git add`直接执行`git commit`，文件的修改不会被提交到master(本地)，只有添加到暂存区的修改，执行`git commit` 才会被提交到master(本地)。  
+  * **修改管理** 文件的修改后没`git add`直接执行`git commit`，文件的修改不会被提交到master(本地)，只有添加到暂存区的修改，执行`git commit` 才会被提交到master(本地)。 
+  #### 删除文件
+  * `rm(Linux命令)` 手动删除工作区文件，可通过`git rm <file>` 提交到暂存区，或者通过`git checkout -- <file>` 撤销工作区修改。  
+  * `git rm <file>` 把工作区中文件删除并提交到暂存区。
+  #### 撤销修改
+  * `git checkout -- <file>` 撤销工作区中的修改。  
+  * `git reset head` 把暂存区中的修改还原到工作区中。  
+  * `git reset --hard <commit_id>` 切换版本
+  > 1.仅在工作区中的修改
+  > >`git checkout -- <file>` 撤销工作区中的修改。  
+  > >
+  > 2.撤销在暂存区的修改(执行了`git add`)  
+  > > 先执行`git reset head` 把暂存区中的修改还原到工作区，然后执行`git checkout -- <file>`撤销工作区中修改。  
+  > > 
+  > 3.撤销提交到本地master的修改
+  > > 先执行`git reset --hard <commit_id>` 把版本回退到暂存区时状态(执行`git commit`之前)，再执行`git reset head` 把暂存区中修改还原到工作区，最后执行`git checkout -- <file>` 撤销工作区修改。 
+
+  #### 本地仓库与远程仓库
+  * `git remote add <远程仓库name> <github中仓库地url或者SSH key>` 在本地仓库中只想此命令，将本地仓库和远程仓库关联。  
+  * `git clone <github中仓库地url或者SSH key>` 克隆远程仓库到执行此命令的目录中。
+  
+### Git_Collection
+  * [Git 基础教程](https://www.liaoxuefeng.com/wiki/896043488029600)
   
