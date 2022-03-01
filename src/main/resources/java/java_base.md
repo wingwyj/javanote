@@ -4,7 +4,9 @@
    * 修饰`方法`，不能被重写(继承), 可以任意重载。
    * 修饰`变量(成员变量、局部变量)`，变量值不能被更改，final修饰变量需要声明是被赋值或者类构造方法中赋值。
    > ```java
-   > // todo思考原因？
+   > /**
+   > * todo思考原因？
+   > **/
    > public void finalTest() {
    >    String a = "hello2";
    >    final String b = "hello";
