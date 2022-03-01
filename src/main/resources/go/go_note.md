@@ -8,7 +8,7 @@
   * `git diff` 查看修改的内容。
   #### 版本管理
   * `git reset --hard <commit_id>` 版本之间切换。
-  * `git log --pretty=oneline` 简化查看提交log。
+  * `git log --pretty=oneline --abbrev-commit` 简化查看提交log。
   * `git reflog` 查看所有历史提交log。回退后也可以看到会退前的提交log。
   #### 核心概念
   * **工作区(Working Directory)** 项目所在目录(git init时所在文件夹)。
