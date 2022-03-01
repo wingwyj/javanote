@@ -12,5 +12,9 @@
   * `git reflog` 查看所有历史提交log。回退后也可以看到会退前的提交log。
   #### 核心概念
   * **工作区(Working Directory)** 项目所在目录(git init时所在文件夹)。
-  * **版本库（Repository）** 工作区中有一个隐藏目录`.git`，这个目录不算工作区，是Git的版本库。Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。  
+  * **版本库（Repository）** 工作区中有一个隐藏目录`.git`，这个目录不算工作区，是Git的版本库。Git的版本库里存了很多东西，其中最重要的就是称为**stage（或者叫index）的暂存区**，还有Git为我们自动创建的第一个分支**master**，以及指向master的一个指针叫HEAD。  
+  * **git add** 是将文件(修改)添加到暂存区。  
+  * **git commit** 是将暂存区的修改提交到master分支。
+  * **git push** 是将本地master分支上的修改提交到远程分支。
+  * **修改管理** 文件的修改后没`git add`直接执行`git commit`，文件的修改不会被提交到master(本地)，只有添加到暂存区的修改，执行`git commit` 才会被提交到master(本地)。  
   
