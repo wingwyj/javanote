@@ -1,4 +1,24 @@
 ## JAVA_BASE
+ ### final关键字
+   * 修饰`类`，不能被继承，类中所有方法被隐式指定未final。
+   * 修饰`方法`，不能被重写(继承), 可以任意重载。
+   * 修饰`变量(成员变量、局部变量)`，变量值不能被更改，final修饰变量需要声明是被赋值或者类构造方法中赋值。
+   > ```java
+   > // todo思考原因？
+   > public void finalTest() {
+   >    String a = "hello2";
+   >    final String b = "hello";
+   >    String e = "hello";
+   >    String c = b + "2";
+   >    String d = e + "2";
+   >    String f = "hello" + "2";
+   >
+   >    System.out.println(a == c); // true
+   >    System.out.println(a == d); // false
+   >    System.out.println(b == e); // true
+   >    System.out.println(a == f); // true
+   > }
+   > ```
  ### Java中只有值传递
    * 对于`基本类型`, 方法的形参相当于copy一份。因此，对形参的修改不会影响实参。  
    * 对于`引用类型`, 方法的形参其实是引用对象的`内存中地址值`。因此，对形参修改不会影响实参(地址值)，但是对`引用对象`的修改会改变实参。  
