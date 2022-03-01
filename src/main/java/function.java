@@ -1,5 +1,4 @@
 import com.google.common.base.Function;
-import org.omg.CORBA.INTERNAL;
 
 /**
  * 函数式编程
