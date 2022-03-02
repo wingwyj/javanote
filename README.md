@@ -6,21 +6,21 @@
 * [JetBrains 系列IDE官方版及白嫖教程](https://www.nite07.com/jetbrains/)
 * [JetBrains 全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)  
 ### Java
-* [Java_Base](https://github.com/wingwyj/javanote/blob/master/src/main/resources/java/java_base.md)
+* [Java_Base](./src/main/resources/java/java_base.md)
 #### Java_Collection  
   * [Java 代码编译流程是怎样的？](https://mp.weixin.qq.com/s/q4q-jr-6NDXxkXuC2ZegJQ)  
   * [Java 日志系统历史从入门到崩溃](https://mp.weixin.qq.com/s/2QKAteGZrubU_ZNi7D_UEA)    
   * [Java8 中谨慎使用实数作为HashMap的key](https://mp.weixin.qq.com/s/AuOyudw3TjwVpLUUPaoEGQ)    
   * [Java8 Stream：2万字20个实例，玩转集合的筛选、归约、分组、聚合](https://mp.weixin.qq.com/s?__biz=MzUxOTAxODc2Mg==&mid=2247492235&idx=1&sn=bff26dedbaa2d2d48307753db1c7c825&chksm=f982a2eecef52bf86c19fbebbe20c59ebfb33dab812466bd2b576fd7fae181a28ccdbcc91239&scene=21#wechat_redirect)  
 ### Redis
-  * [Redis 相关记录](https://github.com/wingwyj/javanote/blob/master/src/main/resources/redis/redis_note.md)
+  * [Redis 相关记录](./src/main/resources/redis/redis_note.md)
 ### 网络相关
   #### Net_Collection
   * [如果让你来设计网络，你会把它弄成啥样?](https://mp.weixin.qq.com/s/LzskZWr97vhtQ1QwQNCsJw)
   * [阿里云面试：拔掉网线后， 原本的 TCP 连接还存在吗？](https://mp.weixin.qq.com/s/0YFsUWL6e9r_aDrCZeTK3w)  
   * [面试题：40 张图解 TCP 三次握手和四次挥手](https://mp.weixin.qq.com/s/Yq4mVDRyMmcc3bJpXOWEww)
 ### Git
-  * [Git 常用命令记录](https://github.com/wingwyj/javanote/blob/master/src/main/resources/git/git_note.md)
+  * [Git 常用命令记录](./src/main/resources/git/git_note.md)
 ### UNIX五种I/O模型
 #### 1.阻塞I/O(同步)
   传统的阻塞IO过程中存在accept和read两个地方阻塞。accept阻塞等待连接，read阻塞等待数据从网卡(或者磁盘)中读取到用户缓冲区buf。  
