@@ -1,8 +1,20 @@
 ## JAVA_BASE
+ ### String 的不可变
+   * String被final修饰是不可变类，不能被继承。  
+   * String中存储数据的数组被private和final修饰(private final char value[];)。final使char数组的引用地址不可变，private私有化使数组value不能被外部类修改，不过不可变的`核心因素`是String中没有提供修改char数组value的public方法。  
+ ### String、StringBuilder、StringBuffer 区别  
+   #### 线程安全  
+   > 1.`String 线程安全` 其不可变保证其线程安全。  
+   > 2.`StringBuilder 非线程安全` StringBuilder 没有对方法加同步锁(synchronized)。  
+   > 3.`StringBuffer 线程安全` StringBuffer 对方法加了同步锁(synchronized)全。(StringBuilder 和 StringBuffer 都继承了AbstractStringBuilder类，存储用的char数组在抽象类中)  
+   #### 性能
+   > 1.`String` 每次修改都会创建新对象，然后将引用指向新的对象。  
+   > 2.`StringBuilder` 每次修改是修改对象本身，单线程效率更高(数据量大)。  
+   > 3.`StringBuffer` 每次也是修改对象本身，多线程中保证线程安全。  
  ### final关键字
    * 修饰`类`，不能被继承，类中所有方法被隐式指定未final。  
    * 修饰`方法`，不能被重写(继承), 可以任意重载。  
-   * 修饰`变量(成员变量、局部变量)`，变量值不能被更改，final修饰变量需要声明是被赋值或者类构造方法中赋值。  
+   * 修饰`变量(成员变量、局部变量)`，`基础变量`是值不能被更改，`引用变量`是引用地址值不可被更改(地址所指的对象value可变)。final修饰变量需要声明时被赋值或者类构造方法中赋值。  
    > ```java
    > /**
    > * todo 思考原因？
