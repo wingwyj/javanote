@@ -7,6 +7,8 @@
 * [JetBrains 全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)  
 ### Java
 * [Java_Base](./src/main/resources/java/java_base.md)
+* [Java 相关收藏文章](./src/main/resources/java/java_collections.md)
+* [Java_相关经典问题](./src/main/resources/java/java_issues.md)
 #### Java_Collection  
   * [Java 代码编译流程是怎样的？](https://mp.weixin.qq.com/s/q4q-jr-6NDXxkXuC2ZegJQ)  
   * [Java 日志系统历史从入门到崩溃](https://mp.weixin.qq.com/s/2QKAteGZrubU_ZNi7D_UEA)    
