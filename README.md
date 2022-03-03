@@ -1,14 +1,16 @@
 ## Java_Note
 ### 破解TOOL
-* [破解工具URL](https://www.ajihuo.com/)
-* [IDEA2021.3.2 永久激活](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
-* [IntelliJ IDEA激活码-持续更新](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
-* [JetBrains 系列IDE官方版及白嫖教程](https://www.nite07.com/jetbrains/)
-* [JetBrains 全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)  
+ * [破解工具URL](https://www.ajihuo.com/)
+ * [IDEA2021.3.2 永久激活](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
+ * [IntelliJ IDEA激活码-持续更新](https://docs.qq.com/doc/DTVh3bkxWSEpvVm5N)
+ * [JetBrains 系列IDE官方版及白嫖教程](https://www.nite07.com/jetbrains/)
+ * [JetBrains 全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)  
 ### Java
-* [Java_Base](./src/main/resources/java/java_base.md)
-* [Java 相关收藏文章](./src/main/resources/java/java_collections.md)
-* [Java_相关经典问题](./src/main/resources/java/java_issues.md)  
+ * [Java_Base](./src/main/resources/java/java_base.md)
+ * [Java 相关收藏文章](./src/main/resources/java/java_collections.md)
+ * [Java_相关经典问题](./src/main/resources/java/java_issues.md) 
+### Netty  
+ * [Protocol Buffer 文章](https://carsonho.blog.csdn.net/article/details/70037693)
 ### Redis
   * [Redis 相关记录](./src/main/resources/redis/redis_note.md)
 ### 网络相关
