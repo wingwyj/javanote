@@ -61,8 +61,9 @@
   * `git push origin <tagname>` 推送指定tag到远程。
   * `git push origin --tags` 推送所有tag到远程。
   * `git tag -d <tagname>` 删除指定tag。
-  * `git push origin :refs/tags/<tagname>` 删除远程tag(如果要删除push后的tag，先删除本地，再删除远程。)。
+  * `git push origin :refs/tags/<tagname>` 删除远程tag(如果要删除push后的tag，先删除本地，再删除远程。)。  
 ### Git_Collection
   * [Git 基础教程](https://www.liaoxuefeng.com/wiki/896043488029600)
   * [Git 官方文档](https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%8E%B7%E5%8F%96-Git-%E4%BB%93%E5%BA%93)
+  * [Git 简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
   
