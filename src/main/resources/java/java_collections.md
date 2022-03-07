@@ -7,6 +7,7 @@
  ### Java 并发编程  
   * [通俗易懂 悲观锁、乐观锁、可重入锁、自旋锁、偏向锁、轻量/重量级锁、读写锁、各种锁及其Java实现！](https://zhuanlan.zhihu.com/p/71156910)
  ### JVM 相关  
-  * [Java虚拟机（JVM）你只要看这一篇就够了！](https://blog.csdn.net/qq_41701956/article/details/81664921)
+  * [Java 虚拟机（JVM）你只要看这一篇就够了！](https://blog.csdn.net/qq_41701956/article/details/81664921)  
+  * [关于 JVM 知识看这一篇就够了](https://zhuanlan.zhihu.com/p/34426768)
  ### Java 日志  
   * [Java 日志系统历史从入门到崩溃](https://mp.weixin.qq.com/s/2QKAteGZrubU_ZNi7D_UEA)  
