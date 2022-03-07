@@ -22,7 +22,8 @@
   #### Net_Collection
   * [如果让你来设计网络，你会把它弄成啥样?](https://mp.weixin.qq.com/s/LzskZWr97vhtQ1QwQNCsJw)
   * [阿里云面试：拔掉网线后， 原本的 TCP 连接还存在吗？](https://mp.weixin.qq.com/s/0YFsUWL6e9r_aDrCZeTK3w)  
-  * [面试题：40 张图解 TCP 三次握手和四次挥手](https://mp.weixin.qq.com/s/Yq4mVDRyMmcc3bJpXOWEww)
+  * [面试题：40 张图解 TCP 三次握手和四次挥手](https://mp.weixin.qq.com/s/Yq4mVDRyMmcc3bJpXOWEww)  
+  * [一台机器最多能创建多少个 TCP 连接？](https://mp.weixin.qq.com/s/TvYE46uZsekqbBvdI9gD-A)  
 ### Git
   * [Git 常用命令记录](./src/main/resources/git/git_note.md)
 ### UNIX五种I/O模型
@@ -48,5 +49,6 @@
 信号驱动IO是先建立SIGIO的信号处理程序，系统调用执行一个信号处理函数，请求会立即返回。当数据准备就绪时，会生成对应进程的SIGI信号，通过信号回调通知对应线程来读数据。然后数据再由内核空间拷贝到用户空间。  
 
 #### 5.异步I/O(异步非阻塞)
-异步IO是应用给内核发送一个read的请求后，方法立刻返回。内核收到请求后建立一个信号联系，当数据准备就绪，内核会主动将数据拷贝到用户空间，操作完成后，内核会发一个信号通知应用。  
+异步IO是应用给内核发送一个read的请求后，方法立刻返回。内核收到请求后建立一个信号联系，当数据准备就绪，内核会主动将数据拷贝到用户空间，操作完成后，内核会发一个信号通知应用。 
+> [你管这破玩意叫 IO 多路复用？](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3NDE0Ng==&mid=2247494866&idx=1&sn=0ebeb60dbc1fd7f9473943df7ce5fd95&chksm=c2c5967ff5b21f69030636334f6a5a7dc52c0f4de9b668f7bac15b2c1a2660ae533dd9878c7c&scene=21#wechat_redirect)  
 
