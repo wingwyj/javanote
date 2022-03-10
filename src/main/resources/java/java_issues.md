@@ -13,11 +13,13 @@
      > jdk自带，xml序列化，**JSON**（fastJSON、Jackson、Gson），**ProtoBuf**，Hessian，Kryo等。  
  ### Java两种动态代理
    * JDK动态代理
-     > 1.需要`接口`代理类和被代理类实现统一接口，实现InvocationHandler(把被代理对象传给Invocation)；  
-     > 2.代理类中通过`反射`拿到被代理类的方法，调用代理类的方法时会拿被代理类的方法去Invocation中去执行；  
+     > 1.需要`接口`代理类和被代理类实现统一接口，实现InvocationHandler(把被代理对象传给InvocationHandler)，并将InvocationHandler传给代理类；  
+     > 2.动态生成代理来，代理类通过`反射`拿到被代理类的方法，调用代理类实现的同一接口的方法时会拿被代理类的方法去InvocationHandler中去执行；  
+     > 3.核心类是 `Proxy` 和 `InvocationHandler`。  
    * CGLB动态代理
      > 1.不需要接口，是通过`继承`被代理类实现;
      > 2.`动态生成继承子类(代理)` 通过调用代理对象的方法，跳转到自定义拦截器中进行代码增强，增强后调用父类的方法;  
+     > 3.核心类是 `Enhancer` 和 `MethodInterceptor`。
  ### 常见分布式ID生成方案
    * `UUID` 通用唯一识别码，字符串太长，无业务含义，存储性能差，实际项目中用的不多。  
    * `基于数据库自增id` 基于`auto_increment`每次插入时返回自增id，实现简单，但是单点有宕机且难扛住分布式高并发场景。
