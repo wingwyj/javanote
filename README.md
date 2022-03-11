@@ -1,4 +1,4 @@
-## Java_Note
+## Notes
 ### 破解TOOL
  * [破解工具URL](https://www.ajihuo.com/)
  * [IDEA2021.3.2 永久激活](https://mp.weixin.qq.com/s/IAPjkBIGmDF9SrLg_ZoYEw)
@@ -10,14 +10,16 @@
  * [Java 相关收藏文章](./src/main/resources/java/java_collections.md)
  * [Java_相关经典问题](./src/main/resources/java/java_issues.md) 
 ### Netty  
- * [【硬核】肝了一月的Netty知识点](https://aobing.blog.csdn.net/article/details/113174359)
+ * [【硬核】肝了一月的Netty知识点](https://aobing.blog.csdn.net/article/details/113174359)  
 ### Protocol Buffer  
  * `Protocol Buffer` Google开源的一种序列化结构数据的方式。其具有平台无关、语言无关、更小、更快等特点，序列化后的二进制格式使其序列化过程更快，压缩后内存更小使其传输更高效。  
   > [Protocol Buffer 文章](https://carsonho.blog.csdn.net/article/details/70037693)  
   > [什么是 Protocol Buffer?](https://zhuanlan.zhihu.com/p/143627360)  
   > [Protocol Buffer是什么?](https://zhuanlan.zhihu.com/p/126241266)
 ### Redis
-  * [Redis 相关记录](./src/main/resources/redis/redis_note.md)
+  * [Redis 相关记录](./src/main/resources/redis/redis_note.md)  
+### MQ(Message Queue)  
+ * [消息队列经典十连问](https://mp.weixin.qq.com/s/VtpG4uYtG7ZX7AjTVSvqmg)
 ### 网络相关
   #### Net_Collection
   * [如果让你来设计网络，你会把它弄成啥样?](https://mp.weixin.qq.com/s/LzskZWr97vhtQ1QwQNCsJw)
