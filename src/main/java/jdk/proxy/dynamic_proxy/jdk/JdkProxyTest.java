@@ -2,6 +2,10 @@ package jdk.proxy.dynamic_proxy.jdk;
 
 import jdk.proxy.SmsService;
 import jdk.proxy.SmsServiceImpl;
+import sun.misc.ProxyGenerator;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 /**
  * @ Author wyj
@@ -21,7 +25,7 @@ public class JdkProxyTest {
     public void generateProxy() {
         String name = "SmServiceImplProxy";
         byte[] bytes = ProxyGenerator.generateProxyClass(
-                name, new Class[]{SmService.class});
+                name, new Class[]{SmsService.class});
         try (FileOutputStream out = new FileOutputStream(name + ".class");) {
             out.write(bytes);
         } catch (IOException e) {
