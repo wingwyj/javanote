@@ -1,9 +1,6 @@
 package map;
 
-import org.omg.CORBA.INTERNAL;
-
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -13,21 +10,22 @@ import java.util.Map;
  */
 public class MapTest {
     public static void main(String[] args) {
-        compute();
-        computeIfAbsent();
-        computeIfPresent();
-        merge();
-        putAll();
-        putIfAbsent();
+        //compute();
+        //computeIfAbsent();
+        //computeIfPresent();
+        //merge();
+        //putAll();
+        //putIfAbsent();
         replaceAll();
     }
 
-    /**
+    /**           
      * 	7.replaceAll(BiFunction<? super K,? super V,? extends V> function)
      * 替换map中所有的value为function的结果
      */
     static void replaceAll() {
         Map<Integer, Integer> map = new HashMap<>(1 << 4);
+        map.put(1, 11);
         map.put(1, 11);
         map.put(2, 22);
 
