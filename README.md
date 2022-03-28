@@ -6,9 +6,9 @@
  * [JetBrains 系列IDE官方版及白嫖教程](https://www.nite07.com/jetbrains/)
  * [JetBrains 全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.macwk.com/article/jetbrains-crack)  
 ### Java
- * [Java_Base](./src/main/resources/java/java_base.md)
- * [Java 相关收藏文章](./src/main/resources/java/java_collections.md)
+ * [Java_Base](./src/main/resources/java/java_base.md)  
  * [Java_相关经典问题](./src/main/resources/java/java_issues.md) 
+ * [Java 相关收藏文章](./src/main/resources/java/java_collections.md)
 ### Netty  
  * [Netty 相关记录](./src/main/resources/netty/netty_main.md)  
 ### Redis
