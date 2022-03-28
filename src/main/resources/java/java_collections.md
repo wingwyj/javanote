@@ -1,4 +1,6 @@
 ## Java 相关文章收藏 
+ ### Java 集合  
+  * [HashMap 的 7 种遍历方式与性能分析！](https://mp.weixin.qq.com/s/zQBN3UvJDhRTKP6SzcZFKw)  
  ### Java 编译  
   * [Java 代码编译流程是怎样的？](https://mp.weixin.qq.com/s/q4q-jr-6NDXxkXuC2ZegJQ)  
  ### Java 8 新特性  
