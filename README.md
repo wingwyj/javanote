@@ -9,7 +9,8 @@
 ### Java
  * [Java_基础](./src/main/resources/java/java_base.md)  
  * [Java_容器](./src/main/resources/java/java_collection.md)  
- * [Java_并发编程](./src/main/resources/java/java_thread.md)  
+ * [Java_线程](./src/main/resources/java/java_thread.md)  
+ * [Java_分布式](./src/main/resources/java/java_distributed.md)  
  * [Java_Jvm](./src/main/resources/java/java_jvm.md)  
  * [Java_新特性](./src/main/resources/java/java_feature_8.md)  
  * [Java_相关经典问题](./src/main/resources/java/java_issues.md) 
