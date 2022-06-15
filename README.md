@@ -19,9 +19,11 @@
 ### Netty  
  * [Netty 相关记录](./src/main/resources/netty/netty_main.md)  
 ### Redis
-  * [Redis 相关记录](./src/main/resources/redis/redis_note.md)  
+ * [Redis 相关记录](./src/main/resources/redis/redis_note.md)  
 ### MQ(Message Queue)  
  * [消息队列经典十连问](https://mp.weixin.qq.com/s/VtpG4uYtG7ZX7AjTVSvqmg)
+### Nginx  
+ * [Nginx 经典问题](https://mp.weixin.qq.com/s/8sxxTCgQT0ZV0x8NMiNT-g)  
 ### 网络相关
   #### Net_Collection
   * [如果让你来设计网络，你会把它弄成啥样?](https://mp.weixin.qq.com/s/LzskZWr97vhtQ1QwQNCsJw)
