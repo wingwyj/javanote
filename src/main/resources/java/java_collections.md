@@ -17,7 +17,9 @@
   * [AtomicXXX 用的好好的，阿里为什么推荐使用 LongAdder？面试必问！](https://mp.weixin.qq.com/s/ND0a6qm98QtuIWNYgF7U3A)  
  ### JVM 相关  
   * [Java 虚拟机（JVM）你只要看这一篇就够了！](https://blog.csdn.net/qq_41701956/article/details/81664921)  
-  * [关于 JVM 知识看这一篇就够了](https://zhuanlan.zhihu.com/p/34426768)
+  * [关于 JVM 知识看这一篇就够了](https://zhuanlan.zhihu.com/p/34426768)  
+ ### Java 缓存  
+  * [Guava Cache用法介绍](https://blog.csdn.net/chinawangfei/article/details/120952162)
  ### Java 日志  
   * [Java 日志系统历史从入门到崩溃](https://mp.weixin.qq.com/s/2QKAteGZrubU_ZNi7D_UEA)  
  ### 面试题
