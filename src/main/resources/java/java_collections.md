@@ -22,5 +22,8 @@
   * [Guava Cache用法介绍](https://blog.csdn.net/chinawangfei/article/details/120952162)
  ### Java 日志  
   * [Java 日志系统历史从入门到崩溃](https://mp.weixin.qq.com/s/2QKAteGZrubU_ZNi7D_UEA)  
+ ### Java 代码优化小技巧和工具  
+  * [你见过哪些目瞪口呆的 Java 代码优化技巧？](https://mp.weixin.qq.com/s/E54EjMuLL8LmFPCpHk9OhA)  
+  * [吐血推荐17个提升开发效率的“轮子”](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652452624&idx=1&sn=ed156557734525c29f905a17e02759aa&scene=21#wechat_redirect)  
  ### 面试题
   * [虾皮 Java 后端面试 15 连问](https://mp.weixin.qq.com/s/6j5DEqcBF_USZbyb20SXZg)  
