@@ -27,3 +27,4 @@
   * [吐血推荐17个提升开发效率的“轮子”](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652452624&idx=1&sn=ed156557734525c29f905a17e02759aa&scene=21#wechat_redirect)  
  ### 面试题
   * [虾皮 Java 后端面试 15 连问](https://mp.weixin.qq.com/s/6j5DEqcBF_USZbyb20SXZg)  
+  * [服务端挂了，客户端的 TCP 连接还在吗？](https://mp.weixin.qq.com/s/wJn82YFMUHM32FDfIv9E8g)  
