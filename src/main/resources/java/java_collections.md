@@ -19,6 +19,7 @@
   * [Java 虚拟机（JVM）你只要看这一篇就够了！](https://blog.csdn.net/qq_41701956/article/details/81664921)  
   * [关于 JVM 知识看这一篇就够了](https://zhuanlan.zhihu.com/p/34426768)    
   * [原来类加载器原理是这样执行的](https://www.bilibili.com/read/cv6502027)
+  * [每天 100 万次登陆请求，8G 内存该如何设置 JVM 参数？](https://mp.weixin.qq.com/s/swry5gs3P4pIu0GfjZtafg)
  ### Java 缓存  
   * [Guava Cache用法介绍](https://blog.csdn.net/chinawangfei/article/details/120952162)
  ### Java 日志  
