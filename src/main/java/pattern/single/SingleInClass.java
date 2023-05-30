@@ -7,11 +7,11 @@ package pattern.single;
  * @version 1.0
  * @date 2021/6/6 22:13
  */
-public class SingleInclass {
+public class SingleInClass {
     /**
      * 构造函数私有化 不被外界实例化
      */
-    private SingleInclass() {
+    private SingleInClass() {
     }
 
     /**
@@ -23,10 +23,10 @@ public class SingleInclass {
             System.out.println("静态内部类被实例化");
         }
 
-        public final static SingleInclass singleInclass = new SingleInclass();
+        public final static SingleInClass singleInclass = new SingleInClass();
     }
 
-    public static SingleInclass getInstance() {
+    public static SingleInClass getInstance() {
         System.out.println("静态内部类的静态成员变量被调用");
         return InnerClass.singleInclass;
     }

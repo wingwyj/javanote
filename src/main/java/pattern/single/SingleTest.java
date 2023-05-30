@@ -8,6 +8,6 @@ package pattern.single;
 public class SingleTest {
     public static void main(String[] args) {
         SingleEnum.INSTANCE.hello();
-        SingleInclass.getInstance().hello();
+        SingleInClass.getInstance().hello();
     }
 }
