@@ -3,6 +3,8 @@
   * [15 张图带你深入理解浮点数](https://baijiahao.baidu.com/s?id=1679268252794098534&wfr=spider&for=pc)  
  ### Java 集合  
   * [HashMap 的 7 种遍历方式与性能分析！](https://mp.weixin.qq.com/s/zQBN3UvJDhRTKP6SzcZFKw)  
+  * [面试：HashMap 夺命二十一问！鸡哥都扛不住~](https://mp.weixin.qq.com/s/keA-xNOHxMUPAFxKnna-Bg)  
+  * [经典面试题：为什么 ConcurrentHashMap 的读操作不需要加锁？](https://mp.weixin.qq.com/s/exeWjwdXJ_9ota4lFO_W3Q)
  ### Java 编译  
   * [Java 代码编译流程是怎样的？](https://mp.weixin.qq.com/s/q4q-jr-6NDXxkXuC2ZegJQ)  
  ### Java 8 新特性  
