@@ -2,6 +2,7 @@ package pattern.single;
 
 /**
  * 单例模式--内部类
+ * 静态内部类实现的单例模式是线程安全的。原因是JVM对类的加载机制和初始化机制保证了其线程安全。
  *
  * @author wangyingjie
  * @version 1.0
