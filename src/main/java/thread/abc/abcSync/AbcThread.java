@@ -5,7 +5,7 @@ package thread.abc.abcSync;
  * @ Date 2022/7/1
  */
 public class AbcThread implements Runnable {
-    private String string;
+    private final String string;
 
     public AbcThread(String string) {
         this.string = string;

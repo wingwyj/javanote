@@ -7,9 +7,9 @@ package thread.abc.abcSync;
  * @ Date 2022/7/1
  */
 public class ThreadPrinter implements Runnable {
-    private String name;
-    private Object prev;
-    private Object self;
+    private final String name;
+    private final Object prev;
+    private final Object self;
 
     public ThreadPrinter(String name, Object prev, Object self) {
         this.name = name;
@@ -32,7 +32,7 @@ public class ThreadPrinter implements Runnable {
                     if (count == 0) {
                         prev.notifyAll();
                     } else {
-                        prev.wait();
+                        prev.wait(); // 释放锁等待
                     }
                 } catch (InterruptedException e) {
                     e.printStackTrace();

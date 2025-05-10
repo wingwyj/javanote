@@ -42,7 +42,7 @@ public class DeadLockDemo {
         try {
             TimeUnit.SECONDS.sleep(timeout);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            Thread.currentThread().interrupt(); // 恢复中断状态
         }
     }
 }

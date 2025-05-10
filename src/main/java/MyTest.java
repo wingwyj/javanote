@@ -44,7 +44,7 @@
  * @ Author wyj
  * @ Date 2022/6/28
  */
-public class Test {
+public class MyTest {
     public static void main(String[] args) {
         //int a = 10;
         //new Test().add(a);
@@ -52,7 +52,7 @@ public class Test {
         //String s2="bc";
         //System.out.println(s1 == s2);
         //System.out.println(a);
-        new Test().integerTest();
+        new MyTest().integerTest();
     }
 
     public void add(int num) {

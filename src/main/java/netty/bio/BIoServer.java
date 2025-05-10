@@ -1,7 +1,5 @@
 package netty.bio;
 
-import com.sun.java.swing.plaf.windows.WindowsDesktopPaneUI;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;

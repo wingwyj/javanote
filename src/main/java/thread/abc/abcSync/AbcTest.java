@@ -8,7 +8,7 @@ package thread.abc.abcSync;
  */
 public class AbcTest {
     public static void main(String[] args) {
-
+        testJoin();
     }
 
     /**
