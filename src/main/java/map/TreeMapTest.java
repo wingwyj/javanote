@@ -12,7 +12,7 @@ import java.util.TreeMap;
  * TreeMap 继承于AbstractMap，所以它是一个Map，即一个key-value集合。
  * TreeMap 实现了Cloneable接口，它能被克隆。实现了java.io.Serializable接口，它支持序列化。
  * TreeMap基于红黑树实现， containsKey、get、put 和 remove 的时间复杂度是 log(n) 。
- * TreeMap是线程不安全的。 它的iterator 方法返回的迭代器支持fail-fastl机制。
+ * TreeMap是线程不安全的。 它的iterator 方法返回的迭代器支持fail-fast机制。
  *
  * @author wangyingjie
  * @version 1.0

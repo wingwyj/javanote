@@ -6,18 +6,18 @@ package thread.threadlocal;
  */
 public class ThreadLocalTest {
     public static void main(String[] args) {
-        ThreadLocal<Integer> th = new ThreadLocal(){
-            @Override
-            protected Object initialValue() {
-                return 0;
-            }
-        };
+        ThreadLocal<Integer> th = ThreadLocal.withInitial(() -> 0);
 
         new Thread(()->{
             th.set(111);
             th.set(222);
             System.out.println("线程A " + th.get());
-        }).start();
+        }, "thread-A").start();
+
+        new Thread(()->{
+            th.set(111);
+            System.out.println("线程B " + th.get());
+        }, "thread-B").start();
 
         System.out.println(th.get());
     }

@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /**
  * 1、netty为什么没有用AIO来封装
  * 2、类加载的双亲委派机制
@@ -30,13 +32,6 @@
  *       · bean的生命周期
  *     9.集合和jvm、类加载机制、GC相关
  *
- *    姚记:
- *    张华飞(leader) 13661765650
- *    孙丽萍(HR)   13818246423
- *
- *    富数:
- *    王晶晶(男同事)  13761075832
- *
  *
  *
  * 
@@ -46,13 +41,19 @@
  */
 public class MyTest {
     public static void main(String[] args) {
-        //int a = 10;
-        //new Test().add(a);
-        //String s1="bc";
-        //String s2="bc";
-        //System.out.println(s1 == s2);
-        //System.out.println(a);
-        new MyTest().integerTest();
+        Random random = new Random();
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                System.out.println(i + " " + j);
+                if (j == 1) {
+                    break;
+                }
+            }
+            System.out.println("----------------" + i);
+        }
+
+
+        System.out.println(1000.12 % 1);
     }
 
     public void add(int num) {

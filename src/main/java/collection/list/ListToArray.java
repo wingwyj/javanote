@@ -1,4 +1,4 @@
-package collection;
+package collection.list;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,7 @@ public class ListToArray {
         list.add("bb");
 
         String[] strings = list.toArray(new String[0]);
+
 
     }
 }

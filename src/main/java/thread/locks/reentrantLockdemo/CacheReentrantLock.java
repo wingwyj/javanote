@@ -53,7 +53,7 @@ public class CacheReentrantLock<K, V> {
             }
             // 锁降级以后，这里可以防止其他线程获取写锁去修改数据，这时其他线程可以获取读锁
             try {
-                // 这里可以保证v还是可以和上边修改的值时一致的
+                // 这里可以保证v还是可以和上边修改的值是一致的
             } finally {
                 readLock.unlock();
             }

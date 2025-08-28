@@ -1,6 +1,5 @@
 package thread.locks.reentrantLockdemo;
 
-import java.lang.reflect.Array;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -29,7 +28,7 @@ public class MyArrayBlockingQueue<T> {
     public void put(T element) throws InterruptedException {
         lock.lock();
         try {
-            while (count == array.length) {
+            while (count == array.length) { // 使用while而非if，避免虚假唤醒
                 notFull.await(); // 队列满的时候，阻塞生产者线程
             }
             array[tail] = element;

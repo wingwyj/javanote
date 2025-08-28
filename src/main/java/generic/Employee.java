@@ -13,6 +13,9 @@ public abstract class Employee{
     private int employeeId;
     private String name;
 
+    public Employee() {
+    }
+
     public int getEmployeeId() {
         return employeeId;
     }
